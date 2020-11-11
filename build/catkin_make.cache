@@ -1,0 +1,2 @@
+rft_msg
+-DCATKIN_DEVEL_PREFIX=/home/ik/exp/devel -DCMAKE_INSTALL_PREFIX=/home/ik/exp/install -G Unix Makefiles
