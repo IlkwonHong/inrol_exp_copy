@@ -1,8 +1,0 @@
-prefix=/home/ik/exp/install
-
-Name: rft_msg
-Description: Description of rft_msg
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: 
