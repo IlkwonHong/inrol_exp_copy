@@ -103,9 +103,9 @@ add_message_files(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
-#  LIBRARIES rft_msg
-#  CATKIN_DEPENDS roscpp rospy std_msgs
+  INCLUDE_DIRS include
+  LIBRARIES rft_msg
+  CATKIN_DEPENDS roscpp rospy std_msgs
 #  DEPENDS system_lib
 )
 
@@ -135,8 +135,8 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(rft_msg_pub_node 
   src/msg_talker.cpp
-#  src/RFT_COM.cpp
-#  src/RFT_IF_PACKET_Rev1.2.cpp
+  src/RFT_UART_SAMPLE.cpp
+  src/RFT_IF_PACKET_Rev1.2.cpp
 )
 
 ## Rename C++ executable without prefix
